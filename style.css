@@ -12,14 +12,14 @@
   --text-main: #0f172a;
   --text-muted: #475569;
   --text-light: #64748b;
-  
+
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
   --primary-light: #eff6ff;
   --primary-border: #bfdbfe;
 
   --accent-color: #0284c7;
-  
+
   --border-color: #e2e8f0;
   --border-hover: #cbd5e1;
 
@@ -42,7 +42,9 @@
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -396,7 +398,8 @@ button:focus-visible {
   }
 
   .unit-card:hover {
-    transform: none; /* Disable desktop lift on mobile touch */
+    transform: none;
+    /* Disable desktop lift on mobile touch */
   }
 
   .resource-item {
